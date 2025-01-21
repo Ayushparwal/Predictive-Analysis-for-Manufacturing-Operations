@@ -20,22 +20,25 @@ This project provides a RESTful API to predict machine downtime or production de
 
 ### Installation
 1. Clone the repository:
-   \`\`\`bash
+   ```sh
    git clone https://github.com/Ayushparwal/Predictive-Analysis-for-Manufacturing-Operations.git
    cd Predictive-Analysis-for-Manufacturing-Operations
-   \`\`\`
+   ```
 
 2. Install the required libraries:
-   \`\`\`bash
+   ```sh
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. Run the application:
-   \`\`\`bash
+   ```sh
    uvicorn app:app --reload
-   \`\`\`
+   ```
 
 Go to this
-4. Access the API at: http://127.0.0.1:8000/docs
+4. Access the API at: 
+  ```sh
+  http://127.0.0.1:8000/docs
+  ```
 
 ps: make sure to upload the dataset of trail_data.csv for more read pdf in the repo.
